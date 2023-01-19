@@ -146,14 +146,14 @@ display: flex;
     transition: all 1s;
 }
 
-.hero__div{
+.hero__form__cont{
 
     display: flex;
     gap: 100px;
     
 }
 
-.hero__p1{
+.hero__form__p1{
     font-size: 1.7rem;
     padding: 1rem;
     flex-basis: 100%;
@@ -228,17 +228,17 @@ flex-basis: 100%;
 
 }
 
-.fecha{
+.tienda__logo{
+    height: 30rem;
+    width: 30rem;
+}
+
+.tienda__logo__fecha{
     position: absolute;
     background-color: white;
     padding: 0.1rem;
     margin: 0.5rem;
 
-}
-
-.tienda__logo{
-    height: 30rem;
-    width: 30rem;
 }
 
 .tienda__parrafo{
@@ -553,13 +553,6 @@ flex-basis: 100%;
     flex-basis: 50%;
 }
 
-.team__seccion__main{
-    flex-basis: 50%;
-    display: flex;
-    margin: 2rem;
-    margin-left: 0rem;
-}
-
 .team__seccion__logo1{
 
     height: 20rem;
@@ -567,12 +560,20 @@ flex-basis: 100%;
     position: relative;
 }
 
-.logo__h2c{
+.logo1__h2{
     background-color:black ;
     padding: 0.1rem;
     color: white;
     text-align: center;
 }
+
+.team__seccion__main{
+    flex-basis: 50%;
+    display: flex;
+    margin: 2rem;
+    margin-left: 0rem;
+}
+
 
 .team__seccion__logo2{
     width: 20rem;
@@ -580,7 +581,7 @@ flex-basis: 100%;
    
 }
 
-.logo__h2t{
+.logo2__h2{
     background-color: black;
     padding: 0.1 rem;
     color: white;
@@ -623,7 +624,7 @@ flex-basis: 100%;
     margin: 2rem;
 }
 
-                                                                                                            /* PRINCIPIO PAGINA PROYECTO */
+                                                                                                        /* PRINCIPIO PAGINA PROYECTO */
 
 
 .proyect__title{
@@ -678,7 +679,7 @@ flex-basis: 100%;
    transform: rotate(-4deg); 
 }
 
-.proyecto__parrafo__contenedor{
+.proyecto__parrafo__contenedor1{
     display: flex;
     flex-direction: column;
     justify-content: center;
