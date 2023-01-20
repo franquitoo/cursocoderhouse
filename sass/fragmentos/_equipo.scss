@@ -1,0 +1,105 @@
+.equipo__title{
+    padding: $titlees-padding;
+    text-align: $titles-text;
+    font-size: $titles-font;
+    margin-top: $titles-margintop;
+    background-color: $titles-backgroundcolor;
+    animation-name: $titles-animationname;
+    animation-duration: $titles-anmduration;
+    animation-delay: $titles-anmdelay;
+    animation-iteration-count: $titles-aic;
+}
+
+@keyframes title{
+
+
+    50%{
+        background-color: black;
+        color: red;
+        text-decoration: underline;
+    }
+
+
+}
+
+.team__seccion{
+    display: flex;
+    margin-top: 3rem;
+}
+
+.team__seccion__mein{
+    display: flex;
+    margin: 2rem;
+    flex-basis: 50%;
+}
+
+.team__seccion__logo1{
+
+    height: 20rem;
+    width: 20rem;
+    position: relative;
+}
+
+.logo1__h2{
+    background-color:black ;
+    padding: 0.1rem;
+    color: white;
+    text-align: center;
+}
+
+.team__seccion__main{
+    flex-basis: 50%;
+    display: flex;
+    margin: 2rem;
+    margin-left: 0rem;
+}
+
+
+.team__seccion__logo2{
+    width: 20rem;
+    position: relative;
+   
+}
+
+.logo2__h2{
+    background-color: black;
+    padding: 0.1 rem;
+    color: white;
+    text-align: center;
+}
+
+.parrafo__contenedor1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 1rem;
+}
+
+.parrafo__contenedor2{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    margin-left: 1rem;
+}
+
+.team__logo__cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.parrafo__team{
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    transition: all, 1s;
+    z-index: 100;
+}
+
+.parrafo__team:hover{
+    transform: scale(1.3,1.2);
+    background-color: red;
+    color: black;
+    padding: 0.5rem;
+    margin: 2rem;
+}

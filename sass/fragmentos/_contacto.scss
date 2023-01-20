@@ -1,0 +1,137 @@
+.contact__title{
+    padding: $titlees-padding;
+    text-align: $titles-text;
+    font-size: $titles-font;
+    margin-top: $titles-margintop;
+    background-color: $titles-backgroundcolor;
+    animation-name: $titles-animationname;
+    animation-duration: $titles-anmduration;
+    animation-delay: $titles-anmdelay;
+    animation-iteration-count: $titles-aic;
+}
+
+@keyframes title{
+
+
+    100%{
+        background-color: black;
+        color: red;
+        text-decoration: underline;
+    }
+    
+    }
+
+#grilla{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-rows: 73% 27%;
+    grid-template-columns: 30% auto auto;
+    height: 140vh;
+    grid-template-areas: "header sectionyo sectionmami"
+                         "footer footer footer";
+    gap: 2rem;
+    
+}
+                                                                                                                    /* header inicio */
+.grid__header{
+    grid-area: header;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin-left: 1rem;
+}
+
+.grid__header__h1{
+    color: white;
+    text-decoration: underline;
+}
+
+.header__list__contact{
+    display: flex;
+    flex-direction: column;  
+    text-align: center; 
+
+}
+
+
+.header__item__contact{
+    margin: 1rem; 
+    transition: all, 1s;
+}
+
+.header__item__contact:hover{
+    transform: scale(1.5,1.5) ;
+}
+
+.header__logo__contact{
+    height: 20rem;
+    margin-top: 1rem;
+}
+
+
+                                                                                                             /* principio section yo */
+.grid__sectionyo{
+    grid-area: sectionyo;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all, 1s;
+    background-color: black;
+    color: white;
+}
+
+.sectionyo__logo{
+    height: 20rem;
+    width: 15rem;
+}
+
+.contact__parrafo__contenedor{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+}
+
+.contact__strong{
+    background-color: red;
+}
+                                                                                                              /* principio section mami */
+.grid__sectionmami{
+    background-color: black;
+    padding: 1rem;
+    grid-area: sectionmami;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: all, 1s;
+    margin-right: 1rem;
+    color: white;
+}
+
+.sectionmami__logo{
+    height: 20rem;
+    width: 18rem;
+}
+
+.contact__footer{
+    grid-area: footer;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.contact__footer__logo{
+    height: 15rem;
+}
+
+.contact__footer__parrafo{
+    color: white;
+    margin: 0rem 1rem;
+    text-align: center;
+}

@@ -1,0 +1,60 @@
+.high__title{
+    padding: $titlees-padding;
+    text-align: $titles-text;
+    font-size: $titles-font;
+    margin-top: $titles-margintop;
+    background-color: $titles-backgroundcolor;
+    animation-name: $titles-animationname;
+    animation-duration: $titles-anmduration;
+    animation-delay: $titles-anmdelay;
+    animation-iteration-count: $titles-aic;
+}
+
+@keyframes title{
+
+
+    100%{
+        background-color: black;
+        color: red;
+        text-decoration: underline;
+    }
+    
+    }
+
+.high__main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.high__main__h2{
+    text-align: center;
+    background-color: white;
+    transition: all, 1s;
+}
+
+.high__main__h2:hover{
+    background-color: red;
+}
+
+.img__high{
+    width: 20rem;
+    height: 20rem;
+}
+
+.high__futer{
+    color: white;
+    background-color: black;
+}
+
+.high__futer__h1{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.futer__h1__span{
+    background-color: orangered;
+    padding: 0.5rem;
+}

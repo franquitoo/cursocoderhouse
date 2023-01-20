@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.rem{
+    font-size: 1rem;
+}
+
+.px{
+    font-size: 16px;
+}
+
+p, a, h5, h2, h1, label, input, h3{
+
+    font-family: 'Oswald', sans-serif;
+
+}
+
+body{
+ background-image: linear-gradient(to bottom, red, rgb(255, 123, 0), yellow)
+}
