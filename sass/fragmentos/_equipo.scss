@@ -103,3 +103,7 @@
     padding: 0.5rem;
     margin: 2rem;
 }
+
+.team__footer{
+    @extend .proyect__footer;
+}

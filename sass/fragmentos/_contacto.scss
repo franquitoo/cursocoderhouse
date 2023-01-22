@@ -89,12 +89,17 @@
     width: 15rem;
 }
 
-.contact__parrafo__contenedor{
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
+.accordion-button{
+    padding: 1rem;
+    background-color: red;
+}
 
+.accordion-button{
+    color: white;
+}
+
+.accordion{
+    margin: 1rem;
 }
 
 .contact__strong{

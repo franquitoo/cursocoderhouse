@@ -31,7 +31,11 @@
         align-items: center;
     }
 
-    .hero__div{
+    .hero__form__p1{
+        text-align: center;
+    }
+
+    .hero__form__cont{
         display: flex;
         flex-direction: column;
         gap: 1px;
@@ -197,6 +201,11 @@
         display: flex;
         flex-direction: column;
     }
+
+    .grid__header{
+        margin: 0rem;
+    }
+
                                                                                                              /* principio yo */
     .grid__sectionyo{
         background-color: black;
@@ -231,9 +240,20 @@
         flex-direction: column;
         gap: 2rem;
     }
-
-    .highs__img{
+    
+    @mixin imghigh{
         width: 100%;
+    }
+    .img__high1{
+        @include imghigh;     
+    }
+    
+    .img__high2{
+        @include imghigh;    
+    }
+    
+    .img__high3{
+        @include imghigh;
     }
 
     .high__div{
@@ -249,7 +269,7 @@
 
                                                                                                                 /* principio hero */
 
-.hero__p1{
+.hero__form__p1{
     font-size: 1.5rem;
     padding: 0.2rem;
 }                                                                                                               
@@ -267,6 +287,10 @@
     font-size: 1rem;
 }
                                                                                                                 /* principio barra */
+.barra__contenedor{
+    animation-name: none;
+}
+
 @keyframes bci {
     25%{
         transform: scale(1,1);
@@ -343,9 +367,21 @@
     padding: 0.5rem;
 }
 
-.img__high{
-    height: 15rem;
+@mixin highimgtablet{
     width: 15rem;
+    height: 15rem;
+}
+
+.img__high1{
+    @include highimgtablet;     
+}
+
+.img__high2{
+    @include highimgtablet;    
+}
+
+.img__high3{
+    @include highimgtablet;
 }
 
                                                                                                               /* PRINCIPIO PROYECTO */

@@ -196,7 +196,19 @@ body {
   padding: 1rem;
   justify-content: space-evenly; }
 
-.barra__columna__imagen {
+.barra__columna__imagen1 {
+  height: 10rem;
+  width: 10rem; }
+
+.barra__columna__imagen2 {
+  height: 10rem;
+  width: 10rem; }
+
+.barra__columna__imagen3 {
+  height: 10rem;
+  width: 10rem; }
+
+.barra__columna__imagen4 {
   height: 10rem;
   width: 10rem; }
 
@@ -347,11 +359,15 @@ body {
   height: 20rem;
   width: 15rem; }
 
-.contact__parrafo__contenedor {
-  margin-top: 1rem;
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem; }
+.accordion-button {
+  padding: 1rem;
+  background-color: red; }
+
+.accordion-button {
+  color: white; }
+
+.accordion {
+  margin: 1rem; }
 
 .contact__strong {
   background-color: red; }
@@ -480,7 +496,8 @@ body {
   animation-name: title;
   animation-duration: 4s;
   animation-delay: 1s;
-  animation-iteration-count: infinite; }
+  animation-iteration-count: infinite;
+  margin-bottom: 2rem; }
 
 @keyframes title {
   100% {
@@ -538,7 +555,7 @@ body {
   width: 25rem;
   transform: rotate(3deg); }
 
-.proyect__footer {
+.proyect__footer, .team__footer {
   background-color: black;
   color: beige;
   padding: 1rem;
@@ -578,7 +595,15 @@ body {
 .high__main__h2:hover {
   background-color: red; }
 
-.img__high {
+.img__high1 {
+  width: 20rem;
+  height: 20rem; }
+
+.img__high2 {
+  width: 20rem;
+  height: 20rem; }
+
+.img__high3 {
   width: 20rem;
   height: 20rem; }
 
@@ -616,7 +641,9 @@ body {
     flex-direction: column; }
   .hero__form {
     align-items: center; }
-  .hero__div {
+  .hero__form__p1 {
+    text-align: center; }
+  .hero__form__cont {
     display: flex;
     flex-direction: column;
     gap: 1px; }
@@ -715,6 +742,8 @@ body {
   #grilla {
     display: flex;
     flex-direction: column; }
+  .grid__header {
+    margin: 0rem; }
   /* principio yo */
   .grid__sectionyo {
     background-color: black;
@@ -738,7 +767,11 @@ body {
     display: flex;
     flex-direction: column;
     gap: 2rem; }
-  .highs__img {
+  .img__high1 {
+    width: 100%; }
+  .img__high2 {
+    width: 100%; }
+  .img__high3 {
     width: 100%; }
   .high__div {
     padding: 1rem; } }
@@ -747,7 +780,7 @@ body {
 @media screen and (max-width: 768px) {
   /* PRINCIPIO INDEX */
   /* principio hero */
-  .hero__p1 {
+  .hero__form__p1 {
     font-size: 1.5rem;
     padding: 0.2rem; }
   .hero__inputs {
@@ -758,6 +791,8 @@ body {
   .tienda__parrafo {
     font-size: 1rem; }
   /* principio barra */
+  .barra__contenedor {
+    animation-name: none; }
   @keyframes bci {
     25% {
       transform: scale(1, 1); }
@@ -799,9 +834,15 @@ body {
   /* PRINCIPIO HIGHLIGHTS */
   .high__div {
     padding: 0.5rem; }
-  .img__high {
-    height: 15rem;
-    width: 15rem; }
+  .img__high1 {
+    width: 15rem;
+    height: 15rem; }
+  .img__high2 {
+    width: 15rem;
+    height: 15rem; }
+  .img__high3 {
+    width: 15rem;
+    height: 15rem; }
   /* PRINCIPIO PROYECTO */
   .proyecto__contenedor1 {
     margin-bottom: 3rem; }

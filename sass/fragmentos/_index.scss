@@ -237,11 +237,26 @@ flex-basis: 100%;
 
 }
 
-.barra__columna__imagen{
+@mixin imgbarra{
     height: 10rem;
     width: 10rem;
+}
 
-    }
+.barra__columna__imagen1{
+    @include imgbarra;
+}
+
+.barra__columna__imagen2{
+    @include imgbarra;
+}
+
+.barra__columna__imagen3{
+    @include imgbarra;
+}
+
+.barra__columna__imagen4{
+    @include imgbarra;
+}
 
 .barra__contenedor{
     animation-name: bci;
