@@ -222,6 +222,7 @@ width: 22rem;
 
 #grilla{
 height: 170vh;
+width: 41rem;
 }
 
 .grid__header__h1{
@@ -229,6 +230,14 @@ font-size: 1.3rem;
 margin-top: 2rem;
 color: white;
 text-decoration: underline;
+}
+
+.header__nav{
+    margin-right: 1rem;
+}
+
+.header__logo__contact{
+    width: 100%;
 }
 
 .sectionyo__logo{
@@ -240,7 +249,7 @@ width: 12rem;
 }
 
 .contact__parrafo{
-font-size: 0.9rem;
+font-size: 1rem;
 }
 
 }
@@ -453,6 +462,17 @@ font-size: 0.9rem;
         margin: 0rem;
     }
 
+    .grid__header__h1{
+        font-size: 3rem;
+    }
+
+    .header__nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 1rem;
+    }
+
                                                                                                              /* principio yo */
     .grid__sectionyo{
         background-color: black;
@@ -460,7 +480,7 @@ font-size: 0.9rem;
     }                                                                                                         
     
     .contact__parrafo{
-        color: white;
+        color: black;
     }
                                                                                                              /* principio seccion mami */
     .grid__sectionmami{
@@ -470,7 +490,7 @@ font-size: 0.9rem;
     }                                                                                                         
     
     .contact__parrafo{
-        color: white;
+        color: black;
     }
 
                                                                                                              /* principio footer */

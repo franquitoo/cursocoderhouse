@@ -739,18 +739,23 @@ body {
     width: 22rem; }
   /* PRINCIPIO CONTACTO */
   #grilla {
-    height: 170vh; }
+    height: 170vh;
+    width: 41rem; }
   .grid__header__h1 {
     font-size: 1.3rem;
     margin-top: 2rem;
     color: white;
     text-decoration: underline; }
+  .header__nav {
+    margin-right: 1rem; }
+  .header__logo__contact {
+    width: 100%; }
   .sectionyo__logo {
     width: 12rem; }
   .sectionmami__logo {
     width: 12rem; }
   .contact__parrafo {
-    font-size: 0.9rem; } }
+    font-size: 1rem; } }
 
 /* ESTILOS MOBILES (MEDIA QUERIES) */
 /* INDEX */
@@ -876,19 +881,26 @@ body {
     flex-direction: column; }
   .grid__header {
     margin: 0rem; }
+  .grid__header__h1 {
+    font-size: 3rem; }
+  .header__nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 1rem; }
   /* principio yo */
   .grid__sectionyo {
     background-color: black;
     padding: 1rem; }
   .contact__parrafo {
-    color: white; }
+    color: black; }
   /* principio seccion mami */
   .grid__sectionmami {
     background-color: black;
     margin-right: 0rem;
     padding: 1rem; }
   .contact__parrafo {
-    color: white; }
+    color: black; }
   /* principio footer */
   .contact__footer {
     flex-direction: column;
