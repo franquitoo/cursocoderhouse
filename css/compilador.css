@@ -739,8 +739,7 @@ body {
     width: 22rem; }
   /* PRINCIPIO CONTACTO */
   #grilla {
-    height: 170vh;
-    width: 41rem; }
+    height: 170vh; }
   .grid__header__h1 {
     font-size: 1.3rem;
     margin-top: 2rem;
@@ -755,7 +754,7 @@ body {
   .sectionmami__logo {
     width: 12rem; }
   .contact__parrafo {
-    font-size: 1rem; } }
+    font-size: 0.8rem; } }
 
 /* ESTILOS MOBILES (MEDIA QUERIES) */
 /* INDEX */
