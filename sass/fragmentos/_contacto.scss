@@ -21,7 +21,7 @@
     
     }
 
-#grilla{
+#grid{
     margin-top: 1rem;
     display: grid;
     grid-template-rows: 73% 27%;
@@ -41,38 +41,39 @@
     align-items: center;
     height: 100%;
     margin-left: 1rem;
+
+    &__h1{
+        color: white;
+        text-decoration: underline;
+    }
+    
+    &__list{
+        display: flex;
+        flex-direction: column;  
+        text-align: center; 
+    
+    }
+    
+    
+    &__item{
+        margin: 1rem; 
+        transition: all, 1s;
+    }
+    
+    &__item:hover{
+        transform: scale(1.5,1.5) ;
+    }
+    
+    &__logo{
+        height: 20rem;
+        margin-top: 1rem;
+    }
 }
 
-.grid__header__h1{
-    color: white;
-    text-decoration: underline;
-}
-
-.header__list__contact{
-    display: flex;
-    flex-direction: column;  
-    text-align: center; 
-
-}
-
-
-.header__item__contact{
-    margin: 1rem; 
-    transition: all, 1s;
-}
-
-.header__item__contact:hover{
-    transform: scale(1.5,1.5) ;
-}
-
-.header__logo__contact{
-    height: 20rem;
-    margin-top: 1rem;
-}
 
 
                                                                                                              /* principio section yo */
-.grid__sectionyo{
+.sectionyo{
     grid-area: sectionyo;
     padding: 1rem;
     display: flex;
@@ -82,31 +83,30 @@
     transition: all, 1s;
     background-color: black;
     color: white;
+    &__logo{
+        height: 20rem;
+        width: 15rem;
+    }
 }
 
-.sectionyo__logo{
-    height: 20rem;
-    width: 15rem;
-}
-
-.accordion-button{
-    padding: 1rem;
-    background-color: red;
-}
 
 .accordion-button{
-    color: white;
+ background-color: $back-aco;
+ color: $color-aco;
+ padding: $padding-aco;   
 }
 
 .accordion{
-    margin: 1rem;
+    margin: $margin-aco;
 }
 
 .contact__strong{
-    background-color: red;
+    background-color: $contact-strong;
 }
+
                                                                                                               /* principio section mami */
-.grid__sectionmami{
+
+.sectionmami{
     background-color: black;
     padding: 1rem;
     grid-area: sectionmami;
@@ -117,12 +117,27 @@
     transition: all, 1s;
     margin-right: 1rem;
     color: white;
+    &__logo{
+        height: 20rem;
+        width: 18rem;
+    }
 }
 
-.sectionmami__logo{
-    height: 20rem;
-    width: 18rem;
+
+.contact__strong{
+    background-color: $contact-strong;
 }
+
+.accordion-button{
+    background-color: $back-aco;
+    color: $color-aco;
+    padding: $padding-aco;   
+   }
+   
+   .accordion{
+       margin: $margin-aco;
+   }
+   
 
 .contact__footer{
     grid-area: footer;
@@ -131,14 +146,13 @@
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
-}
-
-.contact__footer__logo{
-    height: 15rem;
-}
-
-.contact__footer__parrafo{
-    color: white;
-    margin: 0rem 1rem;
-    text-align: center;
+    &__logo{
+        height: 15rem;
+    }
+    
+    &__parrafo{
+        color: white;
+        margin: 0rem 1rem;
+        text-align: center;
+    }
 }

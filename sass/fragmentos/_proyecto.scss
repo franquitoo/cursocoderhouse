@@ -33,65 +33,64 @@
                          "footer";
 }
 
-.proyecto__main{
+.proyecto{
    margin: 1rem; 
    margin-top: 2rem;
    gap: 1rem;
    grid-area: main;
-}
-
-.proyecto__contenedor1{
-    display: flex;
-    gap:1rem;
-}
-
-.proyecto__img1{
-   width: 25rem;
-   transform: rotate(-4deg); 
-}
-
-.proyecto__parrafo__contenedor1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.proyecto__parrafo1{
-    padding: 1rem;
-    background-color: black;
-    color: aliceblue;
-    
-}
-
-.proyecto__contenedor2{
-    display: flex;
-    gap: 1rem;
-}
-
-.proyecto__parrafo__contenedor2{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.proyecto__parrafo2{
-    padding: 1rem;
-    background-color: black;
-    color: aliceblue;
-    
-}
-
-.proyecto__img2{
-    width: 25rem;
-    transform: rotate(3deg);
-}
-
-.proyect__footer{
-    background-color: black;
-    color: beige;
-    padding: 1rem;
-    font-size: 1.5rem;
-    margin-top: 1.5rem;
-    text-align: center;
-    grid: footer;
+   &__contenedor1{
+       display: flex;
+       gap:1rem;
+   }
+   
+   &__img1{
+      width: 25rem;
+      transform: rotate(-4deg); 
+   }
+   
+   &__parrafo__contenedor1{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+   }
+   
+   &__parrafo1{
+       padding: 1rem;
+       background-color: black;
+       color: aliceblue;
+       
+   }
+   
+   &__contenedor2{
+       display: flex;
+       gap: 1rem;
+   }
+   
+   &__parrafo__contenedor2{
+       display:flex;
+       flex-direction: column;
+       justify-content: center;
+   }
+   
+   &__parrafo2{
+       padding: 1rem;
+       background-color: black;
+       color: aliceblue;
+       
+   }
+   
+   &__img2{
+       width: 25rem;
+       transform: rotate(3deg);
+   }
+   
+   &__footer{
+       background-color: black;
+       color: beige;
+       padding: 1rem;
+       font-size: 1.5rem;
+       margin-top: 1.5rem;
+       text-align: center;
+       grid: footer;
+   }
 }

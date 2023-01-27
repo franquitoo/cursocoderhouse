@@ -21,22 +21,38 @@
     
     }
 
-.high__main{
+    .high{
     display: flex;
     justify-content: space-evenly;
     margin-top: 2rem;
     margin-bottom: 2rem;
+
+    &__main__h2{
+        text-align: center;
+        background-color: white;
+        transition: all, 1s;
+    }
+    
+    &__main__h2:hover{
+        background-color: red;
+    }
+    &__futer{
+        color: white;
+        background-color: black;
+    }
+    
+    &__futer__h1{
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+    
+    &__futer__h1__span{
+        background-color: orangered;
+        padding: 0.5rem;
+    }
 }
 
-.high__main__h2{
-    text-align: center;
-    background-color: white;
-    transition: all, 1s;
-}
-
-.high__main__h2:hover{
-    background-color: red;
-}
 
 @mixin prophighimg{
     width: 20rem;
@@ -55,18 +71,3 @@
     @include prophighimg;
 }
 
-.high__futer{
-    color: white;
-    background-color: black;
-}
-
-.high__futer__h1{
-    text-align: center;
-    font-size: 1.5rem;
-    padding: 1rem;
-}
-
-.futer__h1__span{
-    background-color: orangered;
-    padding: 0.5rem;
-}

@@ -33,54 +33,51 @@
     align-items:center ;
     flex-direction: column;
     grid-area: header;
+    
+    &__logocontenedor{
+        display: flex;
+    }
+    &__logo{
+        height: 12rem;
+        width: 16rem;
+        margin-right: 0rem;    
+    }
+    &__h1{
+        color: white;
+        text-decoration: underline;
+    }
 
-}
+    &__nav{
+        
+        color: black;
+        font-size: 20px;
+        font-weight: bolder;
+    
+    }
+    &__list{
 
-.header__logocontenedor{
     display: flex;
-}
 
-.header__logo{
-    height: 12rem;
-    width: 16rem;
-    margin-right: 0rem;    
+    }
+    &__item{
+        display: flex;
+        margin:1rem ;
+    }
+    &__anchor{
+        color: black;
+        border: solid;
+        background-color: white;
+        padding: 0.2rem;
+        border-radius: 0.5rem;
+        transition:all, 0.8s;
+    }
 
+    &__anchor:hover{
+        transform: scale(1.5,1.5);
+        background-color: red;
+    }
 }
     
-.header__h1{
-    color: white;
-    text-decoration: underline;
-}
-
-.header__nav{
-    
-    color: black;
-    font-size: 20px;
-    font-weight: bolder;
-  
-}
-.header__list{
-
-display: flex;
-
-}
-.header__item{
-    display: flex;
-    margin:1rem ;
-}
-.header__anchor{
-    color: black;
-    border: solid;
-    background-color: white;
-    padding: 0.2rem;
-    border-radius: 0.5rem;
-    transition:all, 0.8s;
-}
-
-.header__anchor:hover{
-    transform: scale(1.5,1.5);
-    background-color: red;
-}
 
                                                                                                              /* principio section hero*/
 
@@ -94,85 +91,85 @@ display: flex;
     padding: 0rem 1rem;
     margin-top: 2.5rem;
 
-}
-
-.hero__h1{
+    &__h1{
+        color: white;
+        text-align: center;
+        font-size: 4rem;
+        text-decoration: underline;
+        text-transform: uppercase;
+        font-style: italic ;
+        margin-bottom: 3rem;
+        transition: all 0.3s;
+        margin-top: 1rem;
+    }
+    
+    &__h1__span1{
+        background-color: red;
+        padding: 0.5rem;
+        transition: all 1s;
+    }
+    
+    &__h1__span2{
+    
+        background-color: orange;
+        padding: 0.5rem;
+        transition: all 1s;
+    }
+    
+    &__form__cont{
+    
+        display: flex;
+        gap: 100px;
+        
+    }
+    
+    &__form__p1{
+        font-size: 1.7rem;
+        padding: 1rem;
+        flex-basis: 100%;
+        color: white;
+        text-decoration:dashed;
+        
+    }
+    
+    &__form{
+    
     color: white;
-    text-align: center;
-    font-size: 4rem;
-    text-decoration: underline;
-    text-transform: uppercase;
-    font-style: italic ;
-    margin-bottom: 3rem;
-    transition: all 0.3s;
-    margin-top: 1rem;
-}
-
-.hero__h1__span1{
-    background-color: red;
-    padding: 0.5rem;
-    transition: all 1s;
-}
-
-.hero__h1__span2{
-
-    background-color: orange;
-    padding: 0.5rem;
-    transition: all 1s;
-}
-
-.hero__form__cont{
-
     display: flex;
-    gap: 100px;
-    
-}
-
-.hero__form__p1{
-    font-size: 1.7rem;
-    padding: 1rem;
+    flex-direction:column;
+    font-size: 1.4rem;
     flex-basis: 100%;
-    color: white;
-    text-decoration:dashed;
     
+    }
+    
+    &__input{
+        width: 75%;
+        margin-bottom: 1rem;
+        transition: all,1s;
+    }
+    
+    &__input:hover{
+       transform: scale(1.5,1.1);
+       background-color: red; 
+       border-radius: 0.8rem;
+    }
+    
+    &__inputs{
+        font-size: 1.2rem;
+        width: 75%;
+        margin-bottom: 1rem;
+        background-color: red;
+        height: 2rem;
+        color: white;
+        transition: all, 1s;
+        border-radius: 0.8rem;
+    }
+    
+    &__inputs:hover{
+        transform: scale(1.5,1.7);
+ }
 }
 
-.hero__form{
-
-color: white;
-display: flex;
-flex-direction:column;
-font-size: 1.4rem;
-flex-basis: 100%;
-
-}
-
-.hero__input{
-    width: 75%;
-    margin-bottom: 1rem;
-    transition: all,1s;
-}
-
-.hero__input:hover{
-   transform: scale(1.5,1.1);
-   background-color: red; 
-   border-radius: 0.8rem;
-}
-
-.hero__inputs{
-    font-size: 1.2rem;
-    width: 75%;
-    margin-bottom: 1rem;
-    background-color: red;
-    height: 2rem;
-    color: white;
-    transition: all, 1s;
-    border-radius: 0.8rem;
-}
-
-.hero__inputs:hover{
-    transform: scale(1.5,1.7);
-}
 
                                                                                                              /* principio section tienda */
 
@@ -185,122 +182,122 @@ flex-basis: 100%;
     background-color: black;
     padding: 1rem;
     
+    &__div{
+    
+        display: flex;
+        flex-direction: column;
+        height: 20rem;
+        justify-content: space-evenly;
+    
+    }
+    
+    &__logo__cont{ 
+    
+        position: relative;
+    
+    }
+    
+    &__logo{
+        height: 30rem;
+        width: 30rem;
+    }
+    
+    &__logo__fecha{
+        position: absolute;
+        background-color: white;
+        padding: 0.1rem;
+        margin: 0.5rem;
+    
+    }
+    
+    &__parrafo{
+    
+        font-size: 1.7rem;
+        color: white;
+    
+    }
 
 }
 
-.tienda__div{
-
-    display: flex;
-    flex-direction: column;
-    height: 20rem;
-    justify-content: space-evenly;
-
-}
-
-.tienda__logo__cont{ 
-
-    position: relative;
-
-}
-
-.tienda__logo{
-    height: 30rem;
-    width: 30rem;
-}
-
-.tienda__logo__fecha{
-    position: absolute;
-    background-color: white;
-    padding: 0.1rem;
-    margin: 0.5rem;
-
-}
-
-.tienda__parrafo{
-
-    font-size: 1.7rem;
-    color: white;
-
-}
 
                                                                                                              /* inicio seccion barra */
 
-.barra{
+    .barra{
     display: flex;
     background-color: black;
     color: white;
     padding: 1rem;
     justify-content: space-evenly;
 
-}
-
-@mixin imgbarra{
-    height: 10rem;
-    width: 10rem;
-}
-
-.barra__columna__imagen1{
-    @include imgbarra;
-}
-
-.barra__columna__imagen2{
-    @include imgbarra;
-}
-
-.barra__columna__imagen3{
-    @include imgbarra;
-}
-
-.barra__columna__imagen4{
-    @include imgbarra;
-}
-
-.barra__contenedor{
-    animation-name: bci;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-    animation-delay: 3s;
+    @mixin imgbarra{
+        height: 10rem;
+        width: 10rem;
+    }
     
+    &__columna__imagen1{
+        @include imgbarra;
+    }
+    
+    &__columna__imagen2{
+        @include imgbarra;
+    }
+    
+    &__columna__imagen3{
+        @include imgbarra;
+    }
+    
+    &__columna__imagen4{
+        @include imgbarra;
+    }
+    
+    &__contenedor{
+        animation-name: bci;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-delay: 3s;
+        
+    }
+    
+    @keyframes bci {
+        25%{
+            transform: scale(1,1);
+        }
+    
+        50%{
+            transform: scale(1.5,1.5);
+        }
+    
+        75%{
+            transform: scale(1.5,1.5);
+        }
+    
+        95%{ 
+            transform: scale(1.1);
+        }
+    
+    }
+    
+    
+    &__columna__h1{
+        text-align: center;
+        background-color: white;
+        color: black;
+        animation-name: bh1;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-delay: 3s;
+    }
+    
+    @keyframes bh1{
+        50%{
+            background-color: red;
+        }
+    
+    }
 }
 
-@keyframes bci {
-    25%{
-        transform: scale(1,1);
-    }
-
-    50%{
-        transform: scale(1.5,1.5);
-    }
-
-    75%{
-        transform: scale(1.5,1.5);
-    }
-
-    95%{ 
-        transform: scale(1.1);
-    }
-
-}
-
-
-.barra__columna__h1{
-    text-align: center;
-    background-color: white;
-    color: black;
-    animation-name: bh1;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-    animation-delay: 3s;
-}
-
-@keyframes bh1{
-    50%{
-        background-color: red;
-    }
-
-}
 
 
                                                                                                                     /* inicio footer */
@@ -314,54 +311,54 @@ flex-basis: 100%;
     background-color:black;
     justify-content: space-evenly;
     
-}
-
-.parrafo__footer{
-
-    padding: 1.8rem;
-    font-size: 1rem;
+    &__parrafo{
     
-}
-
-.columna__footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-.columna__footer__imgc{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-}
-
-@keyframes hura{
-    15%{ opacity: 1;
-
+        padding: 1.8rem;
+        font-size: 1rem;
+        
+    }
+    
+    &__columna{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    &__columna__imgc{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    
+    @keyframes hura{
+        15%{ opacity: 1;
+    
+        }
+    
+        50%{ opacity: 0;
+    
+        }
+    
+        85%{ opacity: 1;
+    
+        }
+    }
+    
+    &__columna__img{
+        width: 15rem;
+        height: 15rem;
+        text-align: center;
+        animation-name: hura;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-delay: 3s;
+    }
+    
+    &__columna__h2{
+        text-align: center;
+        background-color: white;
+        color: black
     }
 
-    50%{ opacity: 0;
-
-    }
-
-    85%{ opacity: 1;
-
-    }
-}
-
-.columna__footer__img{
-    width: 15rem;
-    height: 15rem;
-    text-align: center;
-    animation-name: hura;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-delay: 3s;
-}
-
-.columna__footer__h2{
-    text-align: center;
-    background-color: white;
-    color: black;
 }
