@@ -293,6 +293,10 @@ body {
   .grid__header__h1 {
     color: white;
     text-decoration: underline; }
+  .grid__header__nav {
+    color: black;
+    font-size: 20px;
+    font-weight: bolder; }
   .grid__header__list {
     display: flex;
     flex-direction: column;
@@ -836,12 +840,11 @@ body {
   margin: 0rem; }
   .grid__header__h1 {
     font-size: 3rem; }
-
-.header__nav {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-right: 1rem; }
+  .grid__header__nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 2rem; }
 
 /* principio yo */
 .sectionyo {
