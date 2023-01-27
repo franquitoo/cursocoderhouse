@@ -585,7 +585,6 @@ body {
       background-color: red; }
     75% {
       background-color: red; } }
-  /* PRINCIPIO EQUIPO */
   .team__seccion__mein {
     display: flex;
     flex-direction: column;
@@ -599,12 +598,13 @@ body {
     height: 25rem; }
   .team__seccion__logo2 {
     width: 100%; }
-  .parrafo__contenedor1 {
+  .team__seccion__parrafoc1 {
     gap: 1rem;
     margin-left: 0rem; }
-  .parrafo__contenedor2 {
+  .team__seccion__parrafoc2 {
     gap: 1rem;
-    margin-left: 0rem; } }
+    margin-left: 0rem; }
+  /* PRINCIPIO EQUIPO */ }
 
 /* ESTILOS MOBILES (MEDIA QUERIES) */
 @media screen and (max-width: 768px) {
@@ -618,8 +618,8 @@ body {
   /* principio tienda */
   .tienda {
     gap: 25px; }
-  .tienda__parrafo {
-    font-size: 1rem; }
+    .tienda__parrafo {
+      font-size: 1rem; }
   /* principio barra */
   .barra__contenedor {
     animation-name: none; }
@@ -638,7 +638,7 @@ body {
     75% {
       background-color: red; } }
   /* principio footer */
-  .parrafo__footer {
+  .footer__parrafo {
     padding: 0.7rem;
     font-size: 12px; }
   /* PRINCIPIO EQUIPO */
@@ -646,9 +646,9 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1rem; }
-  .team__seccion__logo1 {
-    width: 100%; }
-  .parrafo__contenedor1 {
+    .team__seccion__mein__logo1 {
+      width: 100%; }
+  .team__seccion__parrafoc1 {
     margin-left: 0rem;
     gap: 1rem; }
   .team__seccion__main {
@@ -656,9 +656,9 @@ body {
     justify-content: space-evenly; }
   .team__seccion__logo2 {
     width: 100%; }
-  .team__logo__cont {
+  .team__seccion__logoc {
     margin-top: 1.5rem; }
-  .parrafo__contenedor2 {
+  .team__seccion__parrafoc2 {
     margin-left: 0rem;
     gap: 1rem; }
   /* PRINCIPIO HIGHLIGHTS */
@@ -681,7 +681,7 @@ body {
   .proyecto__img2 {
     width: 22rem; }
   /* PRINCIPIO CONTACTO */
-  #grilla {
+  #grid {
     height: 170vh; }
   .grid__header__h1 {
     font-size: 1.3rem;
@@ -690,7 +690,7 @@ body {
     text-decoration: underline; }
   .header__nav {
     margin-right: 1rem; }
-  .header__logo__contact {
+  .grid__header__logo {
     width: 100%; }
   .sectionyo__logo {
     width: 12rem; }
