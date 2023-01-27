@@ -42,6 +42,8 @@
 
 }
 
+                                                                                                                    /* PRINCIPIO EQUIPO */
+
 .team__seccion{
 
     &__mein{
@@ -77,9 +79,29 @@
         margin-left: 0rem;  
         
     }
-}                                                                                                              /* PRINCIPIO EQUIPO */
+}     
+                                                                                                                
+                                                                                                                /* PRINCIPIO CONTACTO*/
+
+.grid__header{
+
+    &__h1{
+        font-size: 2rem;
+    }
+    
+    &__nav{
+        margin-right: 1rem;
+        
+    }
+    
+    &__list{
+        gap: 1.5rem;
+    }
+    
+    }
 
 }
+
 
                                                                                                     /* ESTILOS MOBILES (MEDIA QUERIES) */
 
@@ -233,16 +255,25 @@ width: 22rem;
 height: 170vh;
 }
 
-.grid__header__h1{
-font-size: 1.3rem;
-margin-top: 2rem;
-color: white;
-text-decoration: underline;
+.grid__header{
+
+    &__h1{
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    color: white;
+    text-decoration: underline;
+    }
+    
+    &__list{
+        gap: 0.5rem;
+    }
+
+    &__nav{
+        margin-right: 1rem;
+    }
+
 }
 
-.header__nav{
-    margin-right: 1rem;
-}
 
 .grid__header__logo{
     width: 100%;
@@ -271,27 +302,27 @@ font-size: 0.8rem;
 
 @media screen and (max-width: 425px){
     .header{
-            display: flex;
-            flex-direction: column;
-            &__list{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-            }
-            &__nav{
-                margin-right: 0rem;
-            }    
-                
-            }
-            &__item{
-                display: flex;
-                justify-content: start;
-                margin-bottom: 0rem;
-            }    
-                                                                                                                    /* principio hero */
-    }
+    display: flex;
+    flex-direction: column;
 
-    .hero{
+    &__list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__nav{
+        margin-right: 0rem;
+    }    
+        
+    }
+    &__item{
+        display: flex;
+        justify-content: start;
+        margin-bottom: 0rem;
+    }    
+                                                                                                                    /* principio hero */
+                                                                                                                    
+       .hero{
         display: flex;
         flex-direction: column;
         &__form{
@@ -464,81 +495,243 @@ font-size: 0.8rem;
         &__img2{
             width: 100%;
         }
-    }
-    
+
 
                                                                                                         /* PRINCIPIO SECCION CONTACTO */
-    #grid{
+        #grid{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .grid__header{
+            margin: 0rem;
+
+        &__h1{
+                font-size: 3rem;
+        }
+
+        &__nav{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-right: 2rem;
+        }
+
+        }
+
+
+
+                                                                                                                /* principio yo */
+        .sectionyo{
+            background-color: black;
+            padding: 1rem;
+        }                                                                                                         
+        
+        .contact__parrafo{
+            color: black;
+        }
+                                                                                                                /* principio seccion mami */
+        .sectionmami{
+            background-color: black;
+            margin-right: 0rem;
+            padding: 1rem;
+        }                                                                                                         
+        
+
+                                                                                                                /* principio footer */
+        .contact__footer{
+            flex-direction: column;
+            padding: 1rem;
+            gap: 1rem;
+        }
+        
+                                                                                                            /* PRINCIPIO PAGINA HIGHLIGHTS */
+
+        .high{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+        
+        @mixin imghigh{
+            width: 100%;
+            height: 100%
+        }
+        .img__high1{
+            @include imghigh;     
+        }
+        
+        .img__high2{
+            @include imghigh;    
+        }
+        
+        .img__high3{
+
+            @include imghigh;
+        }
+
+        .high__div{
+            padding: 1rem;
+            margin: 0rem 1rem
+        }
+
+    }
+
+                                                                                                         /* PRINCIPIO SECCION EQUIPO */
+
+    .team__seccion{
+        flex-direction: column;
+
+        &__mein{
+            flex-direction: column;
+            gap: 25px;
+        }
+    
+        &__main{
+    
+            flex-direction: column;
+            margin: 2rem;
+            gap: 25px;
+        }
+    
+        &__parrafoc1{
+            margin-left: 0rem;
+            gap: 1rem;
+        }
+    
+        &__parrafoc2{
+            width: 100%;
+            margin-left: 0rem;
+            gap: 1rem;
+        }
+    
+        &__logoh2c{
+            width: 100%;
+        }
+    
+        &__logo1{
+            width: 100%;
+            margin-left: 0rem;
+        }
+    
+        &__logo2{
+            width: 100%;
+        }
+    }
+
+
+                                                                                                        /* PRINCIPIO SECCION PROYECTO */
+
+    #grancontenedor{
         display: flex;
         flex-direction: column;
+        height: 100%;
     }
 
-    .grid__header{
-        margin: 0rem;
-
-    &__h1{
-            font-size: 3rem;
-    }
-    }
-
-
-    .header__nav{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-right: 1rem;
-    }
-
-                                                                                                             /* principio yo */
-    .sectionyo{
-        background-color: black;
-        padding: 1rem;
-    }                                                                                                         
-    
-    .contact__parrafo{
-        color: black;
-    }
-                                                                                                             /* principio seccion mami */
-    .sectionmami{
-        background-color: black;
-        margin-right: 0rem;
-        padding: 1rem;
-    }                                                                                                         
-    
-
-                                                                                                             /* principio footer */
-    .contact__footer{
-        flex-direction: column;
-        padding: 1rem;
-        gap: 1rem;
-    }
-    
-                                                                                                        /* PRINCIPIO PAGINA HIGHLIGHTS */
-
-    .high{
+    .proyecto{
         display: flex;
         flex-direction: column;
         gap: 2rem;
-    }
+        
+        &__contenedor1{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
     
-    @mixin imghigh{
-        width: 100%;
-        height: 100%
-    }
-    .img__high1{
-        @include imghigh;     
-    }
+        &__img1{
+            width: 100%;
+        }
     
-    .img__high2{
-        @include imghigh;    
-    }
+        &__contenedor2{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
     
-    .img__high3{
+        &__img2{
+            width: 100%;
+        }
 
-        @include imghigh;
     }
+    
 
-    .high__div{
-        padding: 1rem;
-        margin: 0rem 1rem
+
+                                                                                                        /* PRINCIPIO SECCION CONTACTO */
+        #grid{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .grid__header{
+            margin: 0rem;
+
+        &__h1{
+                font-size: 3rem;
+        }
+
+        &__nav{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-right: 2rem;
+        }
+
+        }
+
+
+
+                                                                                                                /* principio yo */
+        .sectionyo{
+            background-color: black;
+            padding: 1rem;
+        }                                                                                                         
+        
+        .contact__parrafo{
+            color: black;
+        }
+                                                                                                                /* principio seccion mami */
+        .sectionmami{
+            background-color: black;
+            margin-right: 0rem;
+            padding: 1rem;
+        }                                                                                                         
+        
+
+                                                                                                                /* principio footer */
+        .contact__footer{
+            flex-direction: column;
+            padding: 1rem;
+            gap: 1rem;
+        }
+        
+                                                                                                            /* PRINCIPIO PAGINA HIGHLIGHTS */
+
+        .high{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+        
+        @mixin imghigh{
+            width: 100%;
+            height: 100%
+        }
+        .img__high1{
+            @include imghigh;     
+        }
+        
+        .img__high2{
+            @include imghigh;    
+        }
+        
+        .img__high3{
+
+            @include imghigh;
+        }
+
+        .high__div{
+            padding: 1rem;
+            margin: 0rem 1rem
+        }
     }
