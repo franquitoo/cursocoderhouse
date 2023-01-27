@@ -704,162 +704,183 @@ body {
 @media screen and (max-width: 425px) {
   .header {
     display: flex;
-    flex-direction: column;
-    /* principio hero */ }
+    flex-direction: column; }
     .header__list {
       display: flex;
       flex-direction: column;
       align-items: center; }
-    .header__item {
-      display: flex;
-      justify-content: start;
-      margin-bottom: 0rem; }
-  .hero {
+    .header__nav {
+      margin-right: 0rem; }
+  __item {
     display: flex;
-    flex-direction: column; }
-    .hero__form {
-      align-items: center; }
-    .hero__form__p1 {
-      text-align: center; }
-    .hero__form__cont {
-      display: flex;
-      flex-direction: column;
-      gap: 1px; }
-  /* principio tienda celu */
-  .tienda {
-    flex-direction: column;
-    gap: 20px;
-    margin-bottom: 1rem; }
-    .tienda__logo {
-      width: 100%;
-      height: 100%; }
-    .tienda__div {
-      width: 100%;
-      margin: 0rem;
-      height: 100%; }
-    .tienda__parrafo {
-      font-size: 1rem;
-      padding: 0.3rem; }
-  /* principio barra */
-  .barra {
+    justify-content: start;
+    margin-bottom: 0rem; }
+  /* principio hero */ }
+
+.hero {
+  display: flex;
+  flex-direction: column; }
+  .hero__form {
+    align-items: center; }
+  .hero__form__p1 {
+    text-align: center; }
+  .hero__form__cont {
     display: flex;
     flex-direction: column;
-    gap: 25px;
-    margin-bottom: 0rem;
-    padding: 1.5rem; }
-    .barra__columna__h1 {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      padding: 0.5rem;
-      text-align: center;
-      animation-duration: 5s; }
-    .barra__columna {
-      margin-left: 0.7rem; }
-    .barra__columna__imagen {
-      height: 15rem;
-      width: 15rem; }
-    .barra__contenedor {
-      display: flex;
-      justify-content: center;
-      animation-name: none; }
-  /* principio footer */
-  .footer {
-    display: flex;
-    flex-direction: column; }
-    .footer__columna {
-      background-color: white;
-      color: black; }
-    .footer__columna__img {
-      width: 100%; }
-  /* PRINCIPIO SECCION EQUIPO */
-  .team__seccion {
-    flex-direction: column; }
-    .team__seccion__mein {
-      flex-direction: column;
-      gap: 25px; }
-    .team__seccion__main {
-      flex-direction: column;
-      margin: 2rem;
-      gap: 25px; }
-    .team__seccion__parrafoc1 {
-      margin-left: 0rem;
-      gap: 1rem; }
-    .team__seccion__parrafoc2 {
-      width: 100%;
-      margin-left: 0rem;
-      gap: 1rem; }
-    .team__seccion__logoh2c {
-      width: 100%; }
-    .team__seccion__logo1 {
-      width: 100%;
-      margin-left: 0rem; }
-    .team__seccion__logo2 {
-      width: 100%; }
-  /* PRINCIPIO SECCION PROYECTO */
-  #grancontenedor {
-    display: flex;
-    flex-direction: column;
+    gap: 1px; }
+
+/* principio tienda celu */
+.tienda {
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 1rem; }
+  .tienda__logo {
+    width: 100%;
     height: 100%; }
-  .proyecto {
+  .tienda__div {
+    width: 100%;
+    margin: 0rem;
+    height: 100%; }
+  .tienda__parrafo {
+    font-size: 1rem;
+    padding: 0.3rem; }
+
+/* principio barra */
+.barra {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 0rem;
+  padding: 1.5rem; }
+  .barra__columna__h1 {
     display: flex;
     flex-direction: column;
-    gap: 2rem; }
-    .proyecto__contenedor1 {
-      display: flex;
-      flex-direction: column;
-      gap: 2rem; }
-    .proyecto__img1 {
-      width: 100%; }
-    .proyecto__contenedor2 {
-      display: flex;
-      flex-direction: column;
-      gap: 2rem; }
-    .proyecto__img2 {
-      width: 100%; }
-  /* PRINCIPIO SECCION CONTACTO */
-  #grid {
+    justify-content: center;
+    padding: 0.5rem;
+    text-align: center;
+    animation-duration: 5s; }
+  .barra__columna {
+    margin-left: 0.7rem; }
+  .barra__columna__imagen {
+    height: 15rem;
+    width: 15rem; }
+  .barra__contenedor {
     display: flex;
-    flex-direction: column; }
-  .grid__header {
-    margin: 0rem; }
-    .grid__header__h1 {
-      font-size: 3rem; }
-  .header__nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 1rem; }
-  /* principio yo */
-  .sectionyo {
-    background-color: black;
-    padding: 1rem; }
-  .contact__parrafo {
+    justify-content: center;
+    animation-name: none; }
+
+/* principio footer */
+.footer {
+  display: flex;
+  flex-direction: column; }
+  .footer__columna {
+    background-color: white;
     color: black; }
-  /* principio seccion mami */
-  .sectionmami {
-    background-color: black;
-    margin-right: 0rem;
-    padding: 1rem; }
-  /* principio footer */
-  .contact__footer {
+  .footer__columna__img {
+    width: 100%; }
+
+/* PRINCIPIO SECCION EQUIPO */
+.team__seccion {
+  flex-direction: column; }
+  .team__seccion__mein {
     flex-direction: column;
-    padding: 1rem;
+    gap: 25px; }
+  .team__seccion__main {
+    flex-direction: column;
+    margin: 2rem;
+    gap: 25px; }
+  .team__seccion__parrafoc1 {
+    margin-left: 0rem;
     gap: 1rem; }
-  /* PRINCIPIO PAGINA HIGHLIGHTS */
-  .high {
+  .team__seccion__parrafoc2 {
+    width: 100%;
+    margin-left: 0rem;
+    gap: 1rem; }
+  .team__seccion__logoh2c {
+    width: 100%; }
+  .team__seccion__logo1 {
+    width: 100%;
+    margin-left: 0rem; }
+  .team__seccion__logo2 {
+    width: 100%; }
+
+/* PRINCIPIO SECCION PROYECTO */
+#grancontenedor {
+  display: flex;
+  flex-direction: column;
+  height: 100%; }
+
+.proyecto {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem; }
+  .proyecto__contenedor1 {
     display: flex;
     flex-direction: column;
     gap: 2rem; }
-  .img__high1 {
-    width: 100%;
-    height: 100%; }
-  .img__high2 {
-    width: 100%;
-    height: 100%; }
-  .img__high3 {
-    width: 100%;
-    height: 100%; }
-  .high__div {
-    padding: 1rem;
-    margin: 0rem 1rem; } }
+  .proyecto__img1 {
+    width: 100%; }
+  .proyecto__contenedor2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; }
+  .proyecto__img2 {
+    width: 100%; }
+
+/* PRINCIPIO SECCION CONTACTO */
+#grid {
+  display: flex;
+  flex-direction: column; }
+
+.grid__header {
+  margin: 0rem; }
+  .grid__header__h1 {
+    font-size: 3rem; }
+
+.header__nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 1rem; }
+
+/* principio yo */
+.sectionyo {
+  background-color: black;
+  padding: 1rem; }
+
+.contact__parrafo {
+  color: black; }
+
+/* principio seccion mami */
+.sectionmami {
+  background-color: black;
+  margin-right: 0rem;
+  padding: 1rem; }
+
+/* principio footer */
+.contact__footer {
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem; }
+
+/* PRINCIPIO PAGINA HIGHLIGHTS */
+.high {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem; }
+
+.img__high1 {
+  width: 100%;
+  height: 100%; }
+
+.img__high2 {
+  width: 100%;
+  height: 100%; }
+
+.img__high3 {
+  width: 100%;
+  height: 100%; }
+
+.high__div {
+  padding: 1rem;
+  margin: 0rem 1rem; }
