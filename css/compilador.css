@@ -300,7 +300,8 @@ body {
   .grid__header__list {
     display: flex;
     flex-direction: column;
-    text-align: center; }
+    text-align: center;
+    margin-right: 1.5rem; }
   .grid__header__item {
     margin: 1rem;
     transition: all, 1s; }
@@ -702,7 +703,7 @@ body {
     gap: 0.5rem; }
   .grid__header__nav {
     margin-right: 1rem; }
-  .grid__header__logo {
+  .grid__headerlogo {
     width: 100%; }
   .sectionyo__logo {
     width: 12rem; }
@@ -724,10 +725,10 @@ body {
       align-items: center; }
     .header__nav {
       margin-right: 0rem; }
-  __item {
-    display: flex;
-    justify-content: start;
-    margin-bottom: 0rem; }
+    .header__item {
+      display: flex;
+      justify-content: start;
+      margin-bottom: 0rem; }
   /* principio hero */
   .hero {
     display: flex;
@@ -787,121 +788,6 @@ body {
       color: black; }
     .footer__columna__img {
       width: 100%; }
-  /* PRINCIPIO SECCION EQUIPO */
-  .team__seccion {
-    flex-direction: column; }
-    .team__seccion__mein {
-      flex-direction: column;
-      gap: 25px; }
-    .team__seccion__main {
-      flex-direction: column;
-      margin: 2rem;
-      gap: 25px; }
-    .team__seccion__parrafoc1 {
-      margin-left: 0rem;
-      gap: 1rem; }
-    .team__seccion__parrafoc2 {
-      width: 100%;
-      margin-left: 0rem;
-      gap: 1rem; }
-    .team__seccion__logoh2c {
-      width: 100%; }
-    .team__seccion__logo1 {
-      width: 100%;
-      margin-left: 0rem; }
-    .team__seccion__logo2 {
-      width: 100%; }
-  /* PRINCIPIO SECCION PROYECTO */
-  #grancontenedor {
-    display: flex;
-    flex-direction: column;
-    height: 100%; }
-  .proyecto {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    /* PRINCIPIO SECCION CONTACTO */
-    /* principio yo */
-    /* principio seccion mami */
-    /* principio footer */
-    /* PRINCIPIO PAGINA HIGHLIGHTS */ }
-    .proyecto__contenedor1 {
-      display: flex;
-      flex-direction: column;
-      gap: 2rem; }
-    .proyecto__img1 {
-      width: 100%; }
-    .proyecto__contenedor2 {
-      display: flex;
-      flex-direction: column;
-      gap: 2rem; }
-    .proyecto__img2 {
-      width: 100%; }
-    .proyecto #grid {
-      display: flex;
-      flex-direction: column; }
-    .proyecto .grid__header {
-      margin: 0rem; }
-      .proyecto .grid__header__h1 {
-        font-size: 3rem; }
-      .proyecto .grid__header__nav {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-right: 2rem; }
-    .proyecto .sectionyo {
-      background-color: black;
-      padding: 1rem; }
-    .proyecto .contact__parrafo {
-      color: black; }
-    .proyecto .sectionmami {
-      background-color: black;
-      margin-right: 0rem;
-      padding: 1rem; }
-    .proyecto .contact__footer {
-      flex-direction: column;
-      padding: 1rem;
-      gap: 1rem; }
-    .proyecto .high {
-      display: flex;
-      flex-direction: column;
-      gap: 2rem; }
-    .proyecto .img__high1 {
-      width: 100%;
-      height: 100%; }
-    .proyecto .img__high2 {
-      width: 100%;
-      height: 100%; }
-    .proyecto .img__high3 {
-      width: 100%;
-      height: 100%; }
-    .proyecto .high__div {
-      padding: 1rem;
-      margin: 0rem 1rem; }
-  /* PRINCIPIO SECCION EQUIPO */
-  .team__seccion {
-    flex-direction: column; }
-    .team__seccion__mein {
-      flex-direction: column;
-      gap: 25px; }
-    .team__seccion__main {
-      flex-direction: column;
-      margin: 2rem;
-      gap: 25px; }
-    .team__seccion__parrafoc1 {
-      margin-left: 0rem;
-      gap: 1rem; }
-    .team__seccion__parrafoc2 {
-      width: 100%;
-      margin-left: 0rem;
-      gap: 1rem; }
-    .team__seccion__logoh2c {
-      width: 100%; }
-    .team__seccion__logo1 {
-      width: 100%;
-      margin-left: 0rem; }
-    .team__seccion__logo2 {
-      width: 100%; }
   /* PRINCIPIO SECCION PROYECTO */
   #grancontenedor {
     display: flex;
@@ -952,6 +838,30 @@ body {
     flex-direction: column;
     padding: 1rem;
     gap: 1rem; }
+  /* PRINCIPIO SECCION EQUIPO */
+  .team__seccion {
+    flex-direction: column; }
+    .team__seccion__mein {
+      flex-direction: column;
+      gap: 25px; }
+    .team__seccion__main {
+      flex-direction: column;
+      margin: 2rem;
+      gap: 25px; }
+    .team__seccion__parrafoc1 {
+      margin-left: 0rem;
+      gap: 1rem; }
+    .team__seccion__parrafoc2 {
+      width: 100%;
+      margin-left: 0rem;
+      gap: 1rem; }
+    .team__seccion__logoh2c {
+      width: 100%; }
+    .team__seccion__logo1 {
+      width: 100%;
+      margin-left: 0rem; }
+    .team__seccion__logo2 {
+      width: 100%; }
   /* PRINCIPIO PAGINA HIGHLIGHTS */
   .high {
     display: flex;
