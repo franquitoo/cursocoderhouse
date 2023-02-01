@@ -89,13 +89,9 @@
         font-size: 2rem;
     }
     
-    &__nav{
-        margin-right: 1rem;
-        
-    }
-    
     &__list{
         gap: 1.5rem;
+        margin-right: 2rem;
     }
     
     }
@@ -266,6 +262,7 @@ height: 170vh;
     
     &__list{
         gap: 0.5rem;
+        margin-right: 0.6rem;
     }
 
     &__nav{
@@ -473,7 +470,6 @@ font-size: 0.8rem;
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-right: 2rem;
         }
 
         }

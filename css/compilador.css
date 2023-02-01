@@ -612,10 +612,9 @@ body {
   /* PRINCIPIO CONTACTO*/
   .grid__header__h1 {
     font-size: 2rem; }
-  .grid__header__nav {
-    margin-right: 1rem; }
   .grid__header__list {
-    gap: 1.5rem; } }
+    gap: 1.5rem;
+    margin-right: 2rem; } }
 
 /* ESTILOS MOBILES (MEDIA QUERIES) */
 @media screen and (max-width: 768px) {
@@ -700,7 +699,8 @@ body {
     color: white;
     text-decoration: underline; }
   .grid__header__list {
-    gap: 0.5rem; }
+    gap: 0.5rem;
+    margin-right: 0.6rem; }
   .grid__header__nav {
     margin-right: 1rem; }
   .grid__headerlogo {
@@ -820,8 +820,7 @@ body {
     .grid__header__nav {
       display: flex;
       flex-direction: column;
-      align-items: center;
-      margin-right: 2rem; }
+      align-items: center; }
   /* principio yo */
   .sectionyo {
     background-color: black;
