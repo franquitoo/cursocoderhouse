@@ -92,14 +92,32 @@
         padding: 0.5rem;
         transition: all, 0.5s;
         z-index: 100;
+        animation-name: teamparrafo;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+        animation-duration: 15s;
     }
     
-    &__parrafo:hover{
-        transform: scale(1.3,1.2);
-        background-color: red;
-        color: black;
-        padding: 0.5rem;
-        margin: 2rem;
+    @keyframes teamparrafo {
+        1%{
+            color: white;
+            background-color: black
+        }
+
+        30%{
+            color: black;
+            background-color: rgb(230, 11, 11);
+        }
+
+        60%{
+            color: black;
+            background-color: rgb(230, 11, 11);
+        }
+
+        99%{
+            color: white;
+            background-color: black
+        }
     }
 }
 
