@@ -442,7 +442,7 @@ body {
     background-color: black;
     color: white;
     padding: 0.5rem;
-    transition: all, 1s;
+    transition: all, 0.5s;
     z-index: 100; }
   .team__seccion__parrafo:hover {
     transform: scale(1.3, 1.2);
@@ -788,6 +788,9 @@ body {
       color: black; }
     .footer__columna__img {
       width: 100%; }
+    .footer__parrafo {
+      font-size: 0.9rem;
+      text-decoration: underline; }
   /* PRINCIPIO SECCION PROYECTO */
   #grancontenedor {
     display: flex;

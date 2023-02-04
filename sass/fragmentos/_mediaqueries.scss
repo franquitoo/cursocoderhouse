@@ -408,6 +408,7 @@ font-size: 0.8rem;
     .footer{
         display: flex;
         flex-direction: column;
+
         &__columna{
             background-color: white;
             color: black;
@@ -415,6 +416,11 @@ font-size: 0.8rem;
     
         &__columna__img{
             width: 100%;
+        }
+
+        &__parrafo{
+            font-size: 0.9rem;
+            text-decoration: underline;
         }
     }
 
