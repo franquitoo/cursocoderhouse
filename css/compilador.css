@@ -2,6 +2,7 @@
 /* titles variables */
 /* variable colores*/
 /*variables boostrap*/
+/* border vars */
 * {
   margin: 0;
   padding: 0;
@@ -272,6 +273,9 @@ body {
     color: red;
     text-decoration: underline; } }
 
+.contact__big {
+  height: 145vh; }
+
 #grid {
   margin-top: 1rem;
   display: grid;
@@ -289,7 +293,8 @@ body {
   flex-direction: column;
   align-items: center;
   height: 100%;
-  margin-left: 1rem; }
+  margin-left: 2rem;
+  border-radius: 1.2rem; }
   .grid__header__h1 {
     color: white;
     text-decoration: underline; }
@@ -321,7 +326,8 @@ body {
   justify-content: space-evenly;
   transition: all, 1s;
   background-color: black;
-  color: white; }
+  color: white;
+  border-radius: 1.2rem; }
   .sectionyo__logo {
     height: 20rem;
     width: 15rem; }
@@ -347,8 +353,8 @@ body {
   justify-content: space-evenly;
   align-items: center;
   transition: all, 1s;
-  margin-right: 1rem;
-  color: white; }
+  color: white;
+  border-radius: 1.2rem; }
   .sectionmami__logo {
     height: 20rem;
     width: 18rem; }
@@ -370,9 +376,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem; }
+  gap: 1rem;
+  border-radius: 1.2rem;
+  margin: 0.5rem 2rem; }
   .contact__footer__logo {
-    height: 15rem; }
+    height: 13.5rem; }
   .contact__footer__parrafo {
     color: white;
     margin: 0rem 1rem;
@@ -406,11 +414,6 @@ body {
     height: 20rem;
     width: 20rem;
     position: relative; }
-  .team__seccion__logo1h2 {
-    background-color: black;
-    padding: 0.1rem;
-    color: white;
-    text-align: center; }
   .team__seccion__main {
     flex-basis: 50%;
     display: flex;
@@ -419,9 +422,14 @@ body {
   .team__seccion__logo2 {
     width: 20rem;
     position: relative; }
+  .team__seccion__logo1h2 {
+    background-color: black;
+    padding: 0.1rem;
+    color: white;
+    text-align: center; }
   .team__seccion__logo2h2 {
     background-color: black;
-    padding: 0.1 rem;
+    padding: 0.1rem;
     color: white;
     text-align: center; }
   .team__seccion__parrafoc1 {
@@ -622,11 +630,19 @@ body {
     gap: 1rem;
     margin-left: 0rem; }
   /* PRINCIPIO CONTACTO*/
+  .contact__big {
+    height: 145vh; }
   .grid__header__h1 {
     font-size: 2rem; }
   .grid__header__list {
     gap: 1.5rem;
     margin-right: 2rem; } }
+
+.sectionmami {
+  margin-right: 2rem; }
+
+.contact__footer {
+  margin-right: 2rem; }
 
 /* ESTILOS MOBILES (MEDIA QUERIES) */
 @media screen and (max-width: 768px) {
@@ -703,6 +719,8 @@ body {
   .proyecto__img2 {
     width: 22rem; }
   /* PRINCIPIO CONTACTO */
+  .contact__big {
+    height: 177vh; }
   #grid {
     height: 170vh; }
   .grid__header__h1 {
@@ -827,11 +845,13 @@ body {
   /* PRINCIPIO SECCION CONTACTO */
   #grid {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    height: 463vh; }
   .grid__header {
-    margin: 0rem; }
+    margin: 0rem 1rem;
+    border-radius: 1rem; }
     .grid__header__h1 {
-      font-size: 3rem; }
+      font-size: 2.8rem; }
     .grid__header__nav {
       display: flex;
       flex-direction: column;
@@ -839,19 +859,28 @@ body {
   /* principio yo */
   .sectionyo {
     background-color: black;
-    padding: 1rem; }
+    padding: 1rem;
+    margin: 0rem 1rem;
+    border-radius: 1rem; }
   .contact__parrafo {
     color: black; }
   /* principio seccion mami */
   .sectionmami {
     background-color: black;
     margin-right: 0rem;
-    padding: 1rem; }
+    padding: 1rem;
+    border-radius: 0rem;
+    margin: 0rem 1rem;
+    border-radius: 1rem; }
   /* principio footer */
   .contact__footer {
     flex-direction: column;
     padding: 1rem;
-    gap: 1rem; }
+    gap: 1rem;
+    border-radius: 0rem;
+    margin: 0rem 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem; }
   /* PRINCIPIO SECCION EQUIPO */
   .team__seccion {
     flex-direction: column; }

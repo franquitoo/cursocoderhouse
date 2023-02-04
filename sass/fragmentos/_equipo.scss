@@ -38,13 +38,6 @@
         position: relative;
     }
     
-    &__logo1h2{
-        background-color:black ;
-        padding: 0.1rem;
-        color: white;
-        text-align: center;
-    }
-    
     &__main{
         flex-basis: 50%;
         display: flex;
@@ -58,12 +51,20 @@
         position: relative;
        
     }
-    
-    &__logo2h2{
-        background-color: black;
-        padding: 0.1 rem;
+
+    @mixin teamh1s{
+        background-color:black ;
+        padding: 0.1rem;
         color: white;
         text-align: center;
+    }
+
+    &__logo1h2{
+        @include teamh1s;
+    }
+    
+    &__logo2h2{
+        @include teamh1s;
     }
     
     &__parrafoc1{

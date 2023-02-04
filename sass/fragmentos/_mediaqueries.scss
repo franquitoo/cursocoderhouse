@@ -83,7 +83,11 @@
                                                                                                                 
                                                                                                                 /* PRINCIPIO CONTACTO*/
 
-.grid__header{
+.contact__big{
+    height: 145vh;
+}
+
+    .grid__header{
 
     &__h1{
         font-size: 2rem;
@@ -96,6 +100,14 @@
     
     }
 
+}
+
+.sectionmami{
+    margin-right: 2rem;
+}
+
+.contact__footer{
+    margin-right: 2rem;
 }
 
 
@@ -247,11 +259,15 @@ width: 22rem;
 
                                                                                                       /* PRINCIPIO CONTACTO */
 
-#grid{
-height: 170vh;
+.contact__big{
+    height: 177vh;
 }
 
-.grid__header{
+#grid{
+    height: 170vh;
+}
+
+    .grid__header{
 
     &__h1{
     font-size: 1.3rem;
@@ -460,16 +476,23 @@ font-size: 0.8rem;
     
 
                                                                                                         /* PRINCIPIO SECCION CONTACTO */
+        
+        @mixin contact_components_border{
+            margin: 0rem 1rem;
+            border-radius: 1rem;
+        }                                                                                                
+
         #grid{
             display: flex;
             flex-direction: column;
+            height: 463vh;
         }
 
         .grid__header{
-            margin: 0rem;
+            @include contact_components_border;
 
         &__h1{
-                font-size: 3rem;
+                font-size: 2.8rem;
         }
 
         &__nav{
@@ -486,6 +509,7 @@ font-size: 0.8rem;
         .sectionyo{
             background-color: black;
             padding: 1rem;
+            @include contact_components_border;
         }                                                                                                         
         
         .contact__parrafo{
@@ -496,6 +520,8 @@ font-size: 0.8rem;
             background-color: black;
             margin-right: 0rem;
             padding: 1rem;
+            border-radius: 0rem;
+            @include contact_components_border;
         }                                                                                                         
         
 
@@ -504,6 +530,9 @@ font-size: 0.8rem;
             flex-direction: column;
             padding: 1rem;
             gap: 1rem;
+            border-radius: 0rem;
+            @include contact_components_border;
+            margin-bottom: 1rem;
         }
         
 
