@@ -85,7 +85,10 @@ body {
   justify-content: center;
   align-items: center;
   padding: 0rem 1rem;
-  margin-top: 2.5rem; }
+  margin-top: 2.5rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  border-radius: 1rem; }
   .hero__h1 {
     color: white;
     text-align: center;
