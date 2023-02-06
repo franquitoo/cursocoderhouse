@@ -12,14 +12,14 @@
 
 @keyframes title{
 
-
     100%{
         background-color: black;
         color: red;
         text-decoration: underline;
     }
     
-    }
+}
+
 .contact__big{
 
     height: 145vh;
@@ -155,6 +155,7 @@
        margin: $margin-aco;
    }
    
+                                                                                                            /* contact footer */
 
 .contact__footer{
     grid-area: footer;
@@ -175,4 +176,18 @@
         margin: 0rem 1rem;
         text-align: center;
     }
+}
+
+.contact__carrousel__h4{
+    position: absolute;
+    padding: 0.2rem;
+    color: black;
+    background-color: rgb(255, 217, 0);
+    margin: 0.3rem 0rem 0rem 0.3rem;
+    border-radius: 0.3rem;
+    z-index: 1000;
+}
+
+.fecha__contenedor{
+    position: relative;
 }

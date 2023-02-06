@@ -4,7 +4,7 @@
 
                                                                                                                 /*   PRINCIPIO INDEX */
 
-                                                                                                                /* principio tineda */
+                                                                                                                /* principio tienda */
 
 .tienda__parrafo{
     font-size: 1.5rem;
@@ -40,6 +40,10 @@
         background-color: red;
     }
 
+}
+
+.footer{
+    padding: 0.1rem;
 }
 
                                                                                                                     /* PRINCIPIO EQUIPO */
@@ -186,11 +190,10 @@ font-size: 12px;
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    }
     
     &__logo1{
     width: 100%;
-    }
-    
     }
     
     &__parrafoc1{
@@ -200,7 +203,8 @@ font-size: 12px;
     
     &__main{
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    
     }
     
     &__logo2{
@@ -391,7 +395,9 @@ font-size: 0.8rem;
         flex-direction: column;
         gap: 25px;
         margin-bottom: 0rem;
+        margin: 0rem 1rem;
         padding: 1.5rem;
+        border-radius: 1rem;
 
         &__columna__h1{
             display: flex;
@@ -424,10 +430,13 @@ font-size: 0.8rem;
     .footer{
         display: flex;
         flex-direction: column;
+        margin: 3rem 1rem 1rem 1rem;
+        border-radius: 1rem;
 
         &__columna{
             background-color: white;
             color: black;
+            border-radius: 0.5rem;
         }
     
         &__columna__img{
@@ -551,6 +560,10 @@ font-size: 0.8rem;
             flex-direction: column;
             margin: 2rem;
             gap: 25px;
+        }
+
+        &__parrafo{
+            border-radius: 0.3rem;
         }
     
         &__parrafoc1{
