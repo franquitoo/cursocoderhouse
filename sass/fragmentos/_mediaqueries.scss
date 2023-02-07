@@ -114,6 +114,12 @@
     margin-right: 2rem;
 }
 
+                                                                                                            /* principio highlights */
+
+.high__video{
+    height: 6rem;
+    width: 14rem;
+}
 
                                                                                                     /* ESTILOS MOBILES (MEDIA QUERIES) */
 
@@ -228,22 +234,8 @@ font-size: 12px;
 padding: 0.5rem;
 }
 
-@mixin imghightablet{
-    width: 15rem;
-    height: 15rem;
-}
-
-.img__high1{
-    @include imghightablet;     
-}
-
-.img__high2{
-    @include imghightablet;    
-}
-
-.img__high3{
-
-    @include imghightablet;
+.high__video{
+    width: 13rem;
 }
 
 
@@ -598,27 +590,16 @@ font-size: 0.8rem;
             display: flex;
             flex-direction: column;
             gap: 2rem;
-        }
-        
-        @mixin imghigh{
-            width: 100%;
-            height: 100%
-        }
-        .img__high1{
-            @include imghigh;     
-        }
-        
-        .img__high2{
-            @include imghigh;    
-        }
-        
-        .img__high3{
 
-            @include imghigh;
-        }
-
-        .high__div{
+        &__div{
             padding: 1rem;
             margin: 0rem 1rem
+        }
+
+        &__video{
+            width: 22rem;
+            height: 10.5rem;
+        }
+
         }
     }

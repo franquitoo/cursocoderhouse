@@ -578,6 +578,9 @@ body {
   justify-content: space-evenly;
   margin-top: 2rem;
   margin-bottom: 2rem; }
+  .high__video {
+    height: 10rem;
+    width: 20rem; }
   .high__main__h2 {
     text-align: center;
     background-color: white;
@@ -664,6 +667,11 @@ body {
 .contact__footer {
   margin-right: 2rem; }
 
+/* principio highlights */
+.high__video {
+  height: 6rem;
+  width: 14rem; }
+
 /* ESTILOS MOBILES (MEDIA QUERIES) */
 @media screen and (max-width: 768px) {
   /* PRINCIPIO INDEX */
@@ -722,15 +730,8 @@ body {
   /* PRINCIPIO HIGHLIGHTS */
   .high__div {
     padding: 0.5rem; }
-  .img__high1 {
-    width: 15rem;
-    height: 15rem; }
-  .img__high2 {
-    width: 15rem;
-    height: 15rem; }
-  .img__high3 {
-    width: 15rem;
-    height: 15rem; }
+  .high__video {
+    width: 13rem; }
   /* PRINCIPIO PROYECTO */
   .proyecto__contenedor1 {
     margin-bottom: 3rem; }
@@ -937,15 +938,9 @@ body {
     display: flex;
     flex-direction: column;
     gap: 2rem; }
-  .img__high1 {
-    width: 100%;
-    height: 100%; }
-  .img__high2 {
-    width: 100%;
-    height: 100%; }
-  .img__high3 {
-    width: 100%;
-    height: 100%; }
-  .high__div {
-    padding: 1rem;
-    margin: 0rem 1rem; } }
+    .high__div {
+      padding: 1rem;
+      margin: 0rem 1rem; }
+    .high__video {
+      width: 22rem;
+      height: 10.5rem; } }
