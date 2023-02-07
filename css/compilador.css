@@ -333,7 +333,7 @@ body {
   background-color: black;
   color: white;
   border-radius: 1.2rem; }
-  .sectionyo__logo {
+  .sectionyologo {
     height: 20rem;
     width: 15rem; }
 
@@ -598,18 +598,6 @@ body {
     background-color: orangered;
     padding: 0.5rem; }
 
-.img__high1 {
-  width: 20rem;
-  height: 20rem; }
-
-.img__high2 {
-  width: 20rem;
-  height: 20rem; }
-
-.img__high3 {
-  width: 20rem;
-  height: 20rem; }
-
 @media screen and (max-width: 1024px) {
   /*   PRINCIPIO INDEX */
   /* principio tienda */
@@ -662,10 +650,10 @@ body {
     margin-right: 2rem; } }
 
 .sectionmami {
-  margin-right: 2rem; }
+  margin-right: 0.8rem; }
 
 .contact__footer {
-  margin-right: 2rem; }
+  margin-right: 0.8rem; }
 
 /* principio highlights */
 .high__video {
@@ -744,24 +732,32 @@ body {
     height: 177vh; }
   #grid {
     height: 170vh; }
-  .grid__header__h1 {
-    font-size: 1.3rem;
-    margin-top: 2rem;
-    color: white;
-    text-decoration: underline; }
-  .grid__header__list {
-    gap: 0.5rem;
-    margin-right: 0.6rem; }
-  .grid__header__nav {
-    margin-right: 1rem; }
-  .grid__headerlogo {
-    width: 100%; }
-  .sectionyo__logo {
-    width: 12rem; }
-  .sectionmami__logo {
-    width: 12rem; }
+  .grid__header {
+    margin-left: 0.8rem; }
+    .grid__header__h1 {
+      font-size: 1.3rem;
+      margin-top: 2rem;
+      color: white;
+      text-decoration: underline; }
+    .grid__header__list {
+      gap: 0.5rem;
+      margin-right: 0.6rem; }
+    .grid__header__nav {
+      margin-right: 1rem; }
+    .grid__header__logo {
+      width: 100%;
+      padding: 0.2rem;
+      border-radius: 1rem; }
+  /* section yo */
+  .sectionyo__logo, .sectionmami__logo {
+    width: 12rem;
+    border-radius: 1rem; }
+  /* section mami */
   .contact__parrafo {
-    font-size: 0.8rem; } }
+    font-size: 0.8rem; }
+  /* footer */
+  .contact__footer {
+    margin-left: 0.8rem; } }
 
 /* ESTILOS MOBILES (MEDIA QUERIES) */
 /* INDEX */
@@ -841,7 +837,7 @@ body {
     .footer__columna {
       background-color: white;
       color: black;
-      border-radius: 0.5rem; }
+      border-radius: 1rem; }
     .footer__columna__img {
       width: 100%; }
     .footer__parrafo {
@@ -869,10 +865,11 @@ body {
     .proyecto__img2 {
       width: 100%; }
   /* PRINCIPIO SECCION CONTACTO */
+  .contact__big {
+    height: 450vh; }
   #grid {
     display: flex;
-    flex-direction: column;
-    height: 463vh; }
+    flex-direction: column; }
   .grid__header {
     margin: 0rem 1rem;
     border-radius: 1rem; }

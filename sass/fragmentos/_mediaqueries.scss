@@ -107,11 +107,11 @@
 }
 
 .sectionmami{
-    margin-right: 2rem;
+    margin-right: 0.8rem;
 }
 
 .contact__footer{
-    margin-right: 2rem;
+    margin-right: 0.8rem;
 }
 
                                                                                                             /* principio highlights */
@@ -264,6 +264,7 @@ width: 22rem;
 }
 
     .grid__header{
+    margin-left: 0.8rem;
 
     &__h1{
     font-size: 1.3rem;
@@ -281,23 +282,34 @@ width: 22rem;
         margin-right: 1rem;
     }
 
-    &logo{
+    &__logo{
         width: 100%;
+        padding: 0.2rem;
+        border-radius: 1rem;
+    
     }
 }
 
+                                                                                                                        /* section yo */
 
 
 .sectionyo__logo{
 width: 12rem;
+border-radius: 1rem;
 }
-
+                                                                                                                    /* section mami */
 .sectionmami__logo{
-width: 12rem;
+@extend .sectionyo__logo;
 }
 
 .contact__parrafo{
 font-size: 0.8rem;
+}
+
+                                                                                                                        /* footer */
+
+.contact__footer{
+    margin-left: 0.8rem;
 }
 
 }
@@ -428,7 +440,7 @@ font-size: 0.8rem;
         &__columna{
             background-color: white;
             color: black;
-            border-radius: 0.5rem;
+            border-radius: 1rem;
         }
     
         &__columna__img{
@@ -478,6 +490,10 @@ font-size: 0.8rem;
 
                                                                                                         /* PRINCIPIO SECCION CONTACTO */
         
+        .contact__big{
+            height: 450vh;
+        }
+
         @mixin contact_components_border{
             margin: 0rem 1rem;
             border-radius: 1rem;
@@ -486,7 +502,6 @@ font-size: 0.8rem;
         #grid{
             display: flex;
             flex-direction: column;
-            height: 463vh;
         }
 
         .grid__header{

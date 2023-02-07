@@ -59,20 +59,4 @@
 }
 
 
-@mixin prophighimg{
-    width: 20rem;
-    height: 20rem;
-}
-
-.img__high1{
-    @include prophighimg;     
-}
-
-.img__high2{
-    @include prophighimg;    
-}
-
-.img__high3{
-    @include prophighimg;
-}
 
