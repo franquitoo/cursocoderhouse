@@ -18,19 +18,13 @@
         text-decoration: underline;
     }
     
-}
-
-.contact__big{
-
-    height: 145vh;
-}    
+}  
 
 #grid{
     margin-top: 1rem;
     display: grid;
     grid-template-rows: 73% 27%;
     grid-template-columns: 30% auto auto;
-    height: 140vh;
     grid-template-areas: "header sectionyo sectionmami"
                          "footer footer footer";
     gap: 2rem;
@@ -45,7 +39,7 @@
     flex-direction: column;
     align-items: center;
     height: 100%;
-    margin-left: 2rem;
+    margin-left: 0.8rem;
     border-radius: $radius-items;
 
     &__h1{
@@ -100,10 +94,11 @@
     border-radius: $radius-items;
     
 
-    &logo{
+    &__logo{
         height: 20rem;
         width: 15rem;
     }
+
 }
 
 .accordion-button{
@@ -168,7 +163,7 @@
     margin: 0.5rem 2rem;
 
     &__logo{
-        height: 13.5rem;
+        height: 13rem;
     }
     
     &__parrafo{

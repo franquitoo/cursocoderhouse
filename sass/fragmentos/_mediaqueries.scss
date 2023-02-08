@@ -87,11 +87,10 @@
                                                                                                                 
                                                                                                                 /* PRINCIPIO CONTACTO*/
 
-.contact__big{
-    height: 145vh;
-}
 
     .grid__header{
+
+        margin-left: 0.8rem;
 
     &__h1{
         font-size: 2rem;
@@ -112,6 +111,8 @@
 
 .contact__footer{
     margin-right: 0.8rem;
+    margin-left: 0.8rem;
+    margin-bottom: 3rem;
 }
 
                                                                                                             /* principio highlights */
@@ -255,13 +256,6 @@ width: 22rem;
 
                                                                                                       /* PRINCIPIO CONTACTO */
 
-.contact__big{
-    height: 177vh;
-}
-
-#grid{
-    height: 170vh;
-}
 
     .grid__header{
     margin-left: 0.8rem;
@@ -291,15 +285,17 @@ width: 22rem;
 }
 
                                                                                                                         /* section yo */
-
+@mixin mobilecontactlogo{
+    width: 12rem;
+    border-radius: 1rem;
+}
 
 .sectionyo__logo{
-width: 12rem;
-border-radius: 1rem;
+    @include mobilecontactlogo
 }
                                                                                                                     /* section mami */
 .sectionmami__logo{
-@extend .sectionyo__logo;
+    @include mobilecontactlogo
 }
 
 .contact__parrafo{
@@ -310,6 +306,7 @@ font-size: 0.8rem;
 
 .contact__footer{
     margin-left: 0.8rem;
+    margin-bottom: 3rem;
 }
 
 }
@@ -490,9 +487,6 @@ font-size: 0.8rem;
 
                                                                                                         /* PRINCIPIO SECCION CONTACTO */
         
-        .contact__big{
-            height: 450vh;
-        }
 
         @mixin contact_components_border{
             margin: 0rem 1rem;

@@ -278,15 +278,11 @@ body {
     color: red;
     text-decoration: underline; } }
 
-.contact__big {
-  height: 145vh; }
-
 #grid {
   margin-top: 1rem;
   display: grid;
   grid-template-rows: 73% 27%;
   grid-template-columns: 30% auto auto;
-  height: 140vh;
   grid-template-areas: "header sectionyo sectionmami" "footer footer footer";
   gap: 2rem; }
 
@@ -298,7 +294,7 @@ body {
   flex-direction: column;
   align-items: center;
   height: 100%;
-  margin-left: 2rem;
+  margin-left: 0.8rem;
   border-radius: 1.2rem; }
   .grid__header__h1 {
     color: white;
@@ -333,7 +329,7 @@ body {
   background-color: black;
   color: white;
   border-radius: 1.2rem; }
-  .sectionyologo {
+  .sectionyo__logo {
     height: 20rem;
     width: 15rem; }
 
@@ -386,7 +382,7 @@ body {
   border-radius: 1.2rem;
   margin: 0.5rem 2rem; }
   .contact__footer__logo {
-    height: 13.5rem; }
+    height: 13rem; }
   .contact__footer__parrafo {
     color: white;
     margin: 0rem 1rem;
@@ -641,19 +637,21 @@ body {
     gap: 1rem;
     margin-left: 0rem; }
   /* PRINCIPIO CONTACTO*/
-  .contact__big {
-    height: 145vh; }
-  .grid__header__h1 {
-    font-size: 2rem; }
-  .grid__header__list {
-    gap: 1.5rem;
-    margin-right: 2rem; } }
+  .grid__header {
+    margin-left: 0.8rem; }
+    .grid__header__h1 {
+      font-size: 2rem; }
+    .grid__header__list {
+      gap: 1.5rem;
+      margin-right: 2rem; } }
 
 .sectionmami {
   margin-right: 0.8rem; }
 
 .contact__footer {
-  margin-right: 0.8rem; }
+  margin-right: 0.8rem;
+  margin-left: 0.8rem;
+  margin-bottom: 3rem; }
 
 /* principio highlights */
 .high__video {
@@ -728,10 +726,6 @@ body {
   .proyecto__img2 {
     width: 22rem; }
   /* PRINCIPIO CONTACTO */
-  .contact__big {
-    height: 177vh; }
-  #grid {
-    height: 170vh; }
   .grid__header {
     margin-left: 0.8rem; }
     .grid__header__h1 {
@@ -749,15 +743,19 @@ body {
       padding: 0.2rem;
       border-radius: 1rem; }
   /* section yo */
-  .sectionyo__logo, .sectionmami__logo {
+  .sectionyo__logo {
     width: 12rem;
     border-radius: 1rem; }
   /* section mami */
+  .sectionmami__logo {
+    width: 12rem;
+    border-radius: 1rem; }
   .contact__parrafo {
     font-size: 0.8rem; }
   /* footer */
   .contact__footer {
-    margin-left: 0.8rem; } }
+    margin-left: 0.8rem;
+    margin-bottom: 3rem; } }
 
 /* ESTILOS MOBILES (MEDIA QUERIES) */
 /* INDEX */
@@ -865,8 +863,6 @@ body {
     .proyecto__img2 {
       width: 100%; }
   /* PRINCIPIO SECCION CONTACTO */
-  .contact__big {
-    height: 450vh; }
   #grid {
     display: flex;
     flex-direction: column; }
