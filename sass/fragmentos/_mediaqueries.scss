@@ -90,7 +90,7 @@
 
     .grid__header{
 
-        margin-left: 0.8rem;
+        margin-left: $marginctct;
 
     &__h1{
         font-size: 2rem;
@@ -106,12 +106,12 @@
 }
 
 .sectionmami{
-    margin-right: 0.8rem;
+    margin-right: $marginctct;
 }
 
 .contact__footer{
-    margin-right: 0.8rem;
-    margin-left: 0.8rem;
+    margin-right: $marginctct;
+    margin-left: $marginctct;
     margin-bottom: 3rem;
 }
 
@@ -254,11 +254,11 @@ width: 22rem;
 width: 22rem;
 }
 
-                                                                                                      /* PRINCIPIO CONTACTO */
+                                                                                                                 /* PRINCIPIO CONTACTO */
 
 
     .grid__header{
-    margin-left: 0.8rem;
+    margin-left: $marginctct;
 
     &__h1{
     font-size: 1.3rem;
